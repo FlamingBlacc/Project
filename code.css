@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+        
+}
+nav{
+    float:center;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 8px;
+    margin: 0;
+    text-align: right;
+}
+
