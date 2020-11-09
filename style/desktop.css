@@ -4,11 +4,11 @@
    margin : 0;
    box-sizing: border-box;
    --maincolor:orange;
-   letter-spacing: 0.06em;
+   
 }
 
 
-.conteiner__Video{
+.conteiner__video{
 z-index: -1;
 width:100%;
 position: relative;
@@ -27,45 +27,54 @@ header{
     align-items:center;
 
     margin-left: 85px;
+    margin-right: 20px;
     margin-right: 108px;
    line-height: 136px;
+
+   
    }
-.Logo__Factory__svg{
+.logo__factory__svg{
     display: flex;
     align-items:center;
     font-family: Orbitron;
     text-transform: uppercase;
     font-size: 30px;
     margin-right: 80px;
+    letter-spacing: 0.06em;
 }
-.Logo__Factory__svg h5{
+.logo__factory__svg h5{
     padding-left: 3px;
     font-size: 30px;
 }
 .ul__header__li li a {
-    padding:15px 20px;
+    padding:10px 28px;
     text-decoration: none;
     color:black;
     line-height: 50px; }
 .ul__header__li li {
     display: flex;
     list-style-type: none;
+    
     }
 .ul__header__li li a:hover {
     color: var(--maincolor);   }
 .header li{
     list-style-type: none;
 }
+nav{
+    min-width: 1114px;
+}
 .ul__header__li {
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-     
     text-transform: uppercase;
     list-style-type: none;
     font-family:Orbitron ;
     font-size:16px;
-    letter-spacing: 0.06em;
+    
+    
     }
 .dropdown{
     position: relative;
@@ -73,12 +82,19 @@ header{
         padding: 13px ;
         font-family: Orbitron;
         line-height: 50px;
-        margin-left: 40px;
+       margin-left: 48px;
     }
+.dropdown a{
+    text-decoration: none;
+    color: black;
+    
+}
+
     .dropdown li{
-        padding-left:0px ;
+        padding-left:0px
+         ;
     }
-    .dropdown__None{
+    .dropdown__none{
     display: none;
     background-color:var(--maincolor);
     position: absolute;
@@ -88,54 +104,56 @@ header{
     line-height: 10px;
     
     }
-    .dropdown:hover .dropdown__None{
+    .dropdown:hover .dropdown__none{
     display: block;
     }
-    .dropdown__None li {
+    .dropdown__none li {
         padding: 15px;
         position: relative;
         margin:10px 25px 0px 25px;
         text-align: center;} 
-    .dropdown__None li:hover{
+    .dropdown__none li:hover{
         background-color: rgb(139, 139, 139); 
         border-radius:10px;
+        
     }
-.conteiner__Portfolio{
+.conteiner__portfolio{
     padding-top: 91px;
     align-items:center;
+   
     font-family: Orbitron;
-    background-color: rgb(236, 235, 235);
-    padding-bottom: 96px;}
-.conteiner__Portfolio a{
+    padding-bottom: 96px;
+    letter-spacing: 0.06em;}
+.conteiner__portfolio a{
     line-height: 31px;
     font-size: 25px;
-    ;
     margin-top: 85px;
     color:var(--maincolor);
 }
 
-.Portfolio__maincontainer{
+.portfolio__maincontainer{
     text-align: center;}
-.Portfolio__maincontainer>h4{
+.portfolio__maincontainer>h4{
     text-decoration: underline;
     margin-top: 146px;
     font-size: 24px;
     line-height: 63px;
     }
-.Portfolio__maincontainer h1{
+.portfolio__maincontainer h1{
     text-transform: uppercase;
     line-height: 63px;
     font-size: 50px;
+    letter-spacing: 0.06em;
     }
-.Portfolio__maincontainer>h4:hover{
+.portfolio__maincontainer>h4:hover{
     color:var(--maincolor);
 }
-.Portfolio__Items{
+.portfolio__items{
 display: flex;
 flex-wrap: wrap;
 margin: 0px 30px 0px 30px;}
 
-.Portfolio__Icons{
+.portfolio__icons{
     width: 281px;
     height: 281px;
     border-radius: 50%;
@@ -143,14 +161,15 @@ margin: 0px 30px 0px 30px;}
     margin: 0px 11px 146px 11px;
     text-align: center;
   font-family: Orbitron;
+  background-color: var(--maincolor);
    }
-.Portfolio__Icons h4{
+.portfolio__icons h4{
     margin-top:20px ;
     font-size: 24px;
 }
-.Portfolio__IMG{
+.portfolio__img{
     margin: 0;}
-.Portfolio__IMG h4{
+.portfolio__img h4{
  margin-top: 24px;
 }
 
@@ -159,9 +178,9 @@ margin: 0px 30px 0px 30px;}
 
 section{
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;}    
 
-.conteiner__Portfolio  h1{
+.conteiner__portfolio  h1{
     padding-bottom: 95px;
     font-size: 50px;
 }
@@ -171,51 +190,77 @@ section{
 .dropdown__mobile{
     display: none;
 }
-
-.about__items h1{
-    font-size: 30px;
-    text-align: center;
+.section__about
+{
+    margin-top: 93px;
+    align-items:center;
     font-family: Orbitron;
-    margin-bottom:56px ;
+    letter-spacing: 0.06em;
+    }
+.about__items{
+    width:100%;
     
 }
+.about__items h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: Orbitron;
+    margin-bottom:77px ;
+    
+    line-height: 63px;
+    text-transform: uppercase;
+}
 
-.about__items__line__quadra{
+.about__items__line__quadra__top{
+    width:1623px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: 0px 12px;
-   
+    justify-content: flex-end;
+    float:left;
+    background:
+    linear-gradient(to right, grey 70%, white 30%) 0 73px/13px 2px repeat-x;
+    
+}
+.about__items__line__quadra__reverse{
+    width:1342px;
+    display: flex;
+    flex-direction: row;
+    margin:72px auto 74px;
+    justify-content:flex-end;
+    background:
+    linear-gradient(to left, grey 70%, white 30%) 0 75px/13px 2px repeat-x;
+}
+.about__items__bottom{
+    width:1632px;
+    display: flex;
+    float:right;
+    background:
+    linear-gradient(to left, grey 70%, white 30%) 0 75px/13px 2px repeat-x;
 }
 .about__img{
     width:143px;
     height: 143px;
     border-radius: 50%;
     text-align: center;
-   
 }
-
-.section__about
-{
-    margin-top: 100px;
-    align-items:center;
-    font-family: Orbitron;
-   
-    }
 .section__about h1{
     font-size: 50px;
 }
 .about__icon{
-    padding: 0px 78px 46px 78px;
     text-align: center;
+    margin: 0px 78px;
 }
 .about__icon h5{
-    font-size: 8px;
-    margin-bottom: 72px;
+    font-size: 15px;
+    line-height: 19px;
 }
 .about__icon h4{
-    font-size: 20px;
+    font-size: 30px;
+    line-height:39px;
 }
+
+
+
 
 
 

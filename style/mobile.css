@@ -1,4 +1,4 @@
-@media (min-width:640px){
+
     *{
         padding:0;
         margin: 0;
@@ -21,7 +21,7 @@
     .header a:hover{
         color:var(--maincolor);
     }
-    .Logo__Factory__svg{
+    .logo__factory__svg{
         display: flex;
       
         align-items:center;
@@ -29,7 +29,7 @@
         text-transform: uppercase;
         font-size: 22px;
     }
-   .Logo__Factory__svg h5{
+   .logo__factory__svg h5{
     margin-right: 187px;
    }
     .ul__header__li {
@@ -81,7 +81,7 @@
         }
     
     
-    .dropdown__None{
+    .dropdown__none{
     display: none;
     background-color:var(--maincolor);
     position: absolute;
@@ -95,41 +95,41 @@
     .dropdown__mobile:hover .dropdown__None{
     display: block;
     }
-    .dropdown__None li {
+    .dropdown__none li {
         padding: 15px;
         position: relative;
         margin:10px 25px 0px 25px;
         text-align: center;} 
-    .dropdown__None li:hover{
+    .dropdown__none li:hover{
         background-color: rgb(139, 139, 139); 
         border-radius:10px;}
     
 
-    .conteiner__Video video{
+    .conteiner__video video{
         width:100%;  
     }
 
-    .conteiner__Portfolio{
+    .conteiner__portfolio{
         padding-top: 30px;
         align-items:center;
         font-family: Orbitron;
         background-color: rgb(236, 235, 235);
         padding-bottom: 96px;}
-        .Portfolio__maincontainer{
+        .portfolio__maincontainer{
             text-align: center;}
-        .Portfolio__maincontainer h4{
+        .portfolio__maincontainer h4{
           
             margin-top: 18px;
             font-size: 22px;}
-        .Portfolio__maincontainer h1{
+        .portfolio__maincontainer h1{
             font-size: 32px;}
-        .Portfolio__maincontainer h4:hover{
+        .portfolio__maincontainer h4:hover{
             color:var(--maincolor);}
-        .Portfolio__Items{
+        .portfolio__items{
         display: flex;
         flex-wrap: wrap;
          margin: 0px 2px}
-        .Portfolio__Icons{
+        .portfolio__icons{
             width: 218px;
             height: 218px;
             border-radius: 50%;
@@ -137,9 +137,9 @@
             margin: 36px 50px 50px 50px;
             
           font-family: Orbitron;}
-        .Portfolio__IMG{
+        .portfolio__img{
             margin: 0;}
-        .Portfolio__IMG h4{
+        .portfolio__img h4{
          margin-top: 9px;}
 
          .line__double{display: flex;
@@ -187,4 +187,3 @@
         .about__icon h4{
             font-size: 20px;
         }
-}
