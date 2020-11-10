@@ -75,6 +75,9 @@
     }
 
 
+    .dropdown{
+        display: none;
+    }
     .dropdown__mobile{
         position: relative;
         display: inline-block;
@@ -158,10 +161,11 @@
             
         }
         
-        .about__items__line__quadra{
+        .about__items__line__quadra__top{
             display: flex;
             flex-direction: row;
             align-items: center;
+            flex-wrap: wrap;
             margin: 0px 12px;
            
         }
