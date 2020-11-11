@@ -216,8 +216,7 @@ display: block;
        
     }
 
-.section__about
-    {align-items:center;
+.section__about{align-items:center;
         font-family: Orbitron;
         margin-top:13px ;
         }

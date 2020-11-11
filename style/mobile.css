@@ -147,11 +147,7 @@
 
          .line__double{display: flex;
         flex-direction: row;}
-        a {
-            margin-top: 30px;
-            font-size: 22px;
-            color:var(--maincolor);
-        }
+        
         
         .about__items h1{
             font-size: 30px;
