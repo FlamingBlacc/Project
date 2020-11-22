@@ -296,7 +296,7 @@ nav{
     background-color:transparent;  
 }
 .header__navbar li:hover{
-    background-color:none;
+    background-color:transparent;
 }
 .burger-menu{
     display: none;
@@ -410,7 +410,7 @@ nav{
     margin: 0 38px 0 auto;
 }
 .header__navbar a:hover {
-    color: var(--maincolor);   }
+    color: var(--maincolor);}
 .header li{
     list-style-type: none;
 }
